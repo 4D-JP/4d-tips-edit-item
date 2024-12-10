@@ -1,4 +1,4 @@
-# SUPJ-16641
+# 4d-tips-edit-item
 リストボックスの選択行をEDIT ITEMと同時にクリアする例題
 
 ```4d
