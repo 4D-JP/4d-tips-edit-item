@@ -1,0 +1,102 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onUnload"
+	],
+	"windowTitle": "",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"col1": {
+					"type": "listbox",
+					"left": 18,
+					"top": 48,
+					"width": 242,
+					"height": 289,
+					"events": [
+						"onDoubleClick"
+					],
+					"listboxType": "collection",
+					"dataSource": "Form:C1466.col1",
+					"resizingMode": "legacy",
+					"method": "ObjectMethods/col1.4dm",
+					"columns": [
+						{
+							"header": {
+								"text": "Header1",
+								"name": "Header1"
+							},
+							"name": "Column1",
+							"footer": {
+								"name": "Footer1"
+							},
+							"dataSource": "This:C1470.value"
+						}
+					]
+				},
+				"col2": {
+					"type": "listbox",
+					"left": 286,
+					"top": 48,
+					"width": 242,
+					"height": 289,
+					"events": [
+						"onDoubleClick"
+					],
+					"listboxType": "collection",
+					"dataSource": "Form:C1466.col2",
+					"resizingMode": "legacy",
+					"method": "ObjectMethods/col2.4dm",
+					"columns": [
+						{
+							"header": {
+								"text": "Header1",
+								"name": "Header2"
+							},
+							"name": "Column2",
+							"footer": {
+								"name": "Footer2"
+							},
+							"dataSource": "This:C1470.value"
+						}
+					]
+				},
+				"Text": {
+					"type": "text",
+					"text": "ダブルクリックで隣のリストボックスを編集",
+					"top": 18,
+					"left": 18,
+					"width": 510,
+					"height": 16,
+					"textAlign": "center",
+					"fontWeight": "bold"
+				}
+			}
+		}
+	],
+	"geometryStamp": 16,
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	},
+	"method": "method.4dm"
+}
